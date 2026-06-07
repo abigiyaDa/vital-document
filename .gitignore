@@ -7,6 +7,10 @@
 *.env
 # (Keep .env.example if you make one)
 !.env.example
+./vital-docs-backend/.env
+.vital-docs-backend/.env
+vital-docs-backend/.env
+
 
 # =========================
 # Python & FastAPI (Backend)
