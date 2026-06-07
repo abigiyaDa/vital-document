@@ -1,0 +1,74 @@
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.local
+.env.*.local
+*.env
+# (Keep .env.example if you make one)
+!.env.example
+
+# =========================
+# Python & FastAPI (Backend)
+# =========================
+# Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing / Profiling
+.pytest_cache/
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+
+# Logs and Databases
+*.log
+*.sqlite3
+*.db
+
+# =========================
+# Node & Frontend
+# =========================
+vital-docs-frontend/node_modules/
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Build outputs
+vital-docs-frontend/build/
+vital-docs-frontend/dist/
+build/
+dist/
+.next/
+.nuxt/
+
+# =========================
+# OS & IDEs
+# =========================
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.settings/
